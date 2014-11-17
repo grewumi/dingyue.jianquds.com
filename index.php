@@ -45,7 +45,8 @@ $spConfig = array(
 	// 用户程序扩展类载入路径
 	'include_path' => array(
 		APP_PATH.'/include'
-	)
+	),
+        'mode'=>release
 
 );
 require(SEUL_CONFIG."/dbconfig.php");
